@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 1.5vw;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+#clockdiv {
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 6vw;
+  font-weight: bold;
+  margin-top: 30vh;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  padding-right: 3vw;
+  font-size: 2vw;
+  font-weight: normal;
+}
+
+.translucentBox {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.bgblack {
+  background-color: black;
+}
+
+.bottomdiv {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 25px;
+  font-size: 2vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.logo {
+  height: 6vw;
+}
+
+.bgwhite {
+  background-color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  #clockdiv {
+    font-size: 8vw;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 40%;
+    margin: 0;
+  }
+
+  .bottomdiv {
+    font-size: 4vw;
+  }
+
+  .until {
+    position: absolute;
+    left: 33%;
+    top: 53%;
+  }
+
+  body{
+    font-size: 3vw;
+  }
+
+  .logo {
+    height: 6vh;
+  }
+}
